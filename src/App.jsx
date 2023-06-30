@@ -3,8 +3,8 @@ import Heading from "./components/Heading/Heading";
 
 function App() {
   return (
-    <div>
-      <Heading />
+    <div className=" h-screen w-screen bg-slate-300 font-primary ">
+      {/* <Heading /> */}
       <Form />
     </div>
   );
