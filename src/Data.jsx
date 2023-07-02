@@ -1,4 +1,4 @@
-const checkList = [
+const data = [
   {
     id: 1,
     src: "../src/assets/images/icon-success.svg",
@@ -12,4 +12,4 @@ const checkList = [
   { id: 3, src: "../src/assets/images/icon-list.svg", title: "And much more!" },
 ];
 
-export { checkList };
+export { data };
