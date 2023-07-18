@@ -2,7 +2,7 @@ import Form from "../Form/Form";
 
 const Heading = ({ data }) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-5">
+    <div className="flex flex-col justify-center rounded-xl items-center gap-5 border-1 border-black shadow-lg w-1/3  h-1/2 ">
       <h1 className=" text-5xl font-bold ">Stay updated!</h1>
       <h2 className=" text-base">
         Join 60,0000+ product managers receiving monthly updates on:
@@ -18,7 +18,7 @@ const Heading = ({ data }) => {
           </li>
         ))}
       </ul>
-      <Form />
+      <Form data={data} />
     </div>
   );
 };
